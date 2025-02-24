@@ -21,3 +21,8 @@ def test_firstProgram():
 
 def test_Greet():
     print("Good morning")
+
+def test_subtractcreditamount():
+    a = 4
+    b = 6
+    assert a+2 == b, "Test Failed as addition do not match"
